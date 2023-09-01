@@ -94,8 +94,6 @@ SteerLM Llama-2 applies this technique on top of the Llama-2 architecture. It wa
 
 ## Getting started
 
-Note: You will need NVIDIA Ampere or Hopper GPUs to work with this model.
-
 To use SteerLM Llama-2, follow these steps:
 
 1. You will need to install NVIDIA Apex and [NeMo](https://github.com/NVIDIA/NeMo). 
