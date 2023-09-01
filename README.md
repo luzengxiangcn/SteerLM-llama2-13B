@@ -119,7 +119,7 @@ Alternatively, you can use NeMo Megatron training docker container with all depe
 git clone https://github.com/NVIDIA/NeMo.git 
 cd NeMo/examples/nlp/language_modeling
 git checkout v1.17.0
-python megatron_gpt_eval.py gpt_model_file=LLAMA2-13B-SteerLM.nemo trainer.precision=bf16 server=True tensor_model_parallel_size=4 trainer.devices=1 pipeline_model_parallel_split_rank=0
+python megatron_gpt_eval.py gpt_model_file=LLAMA2-13B-SteerLM.nemo trainer.precision=16 server=True tensor_model_parallel_size=4 trainer.devices=1 pipeline_model_parallel_split_rank=0
 ```
 
 3. Send prompts to your model!
