@@ -58,7 +58,7 @@ tags:
 - text generation
 - pytorch
 - causal-lm
-license: cc-by-4.0
+license: llama2
 
 ---
 # SteerLM Llama-2 13B
