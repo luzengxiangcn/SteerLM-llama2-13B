@@ -144,7 +144,7 @@ A chat between a curious user and an artificial intelligence assistant. The assi
         "tokens_to_generate": max_tokens,
         "top_k": 1,
         'greedy': True,
-        'end_strings': ["<extra_id_1>", "quality:", "quality:4", "quality:0"]
+        'end_strings': ["<extra_id_1>", "quality:", "quality:9", "quality:0"]
     }
 
     url = f"http://localhost:{eval_port}/generate"
