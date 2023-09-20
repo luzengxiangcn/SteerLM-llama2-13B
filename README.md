@@ -155,5 +155,6 @@ Meta’s Llama2 model was trained on publicly available data sources that could 
 ## References
 
 * [Meta Llama 2 on Hugging Face](https://huggingface.co/meta-llama)
+* [Meta Llama 2 paper](https://arxiv.org/abs/2307.09288)
 * [NVIDIA NeMo Toolkit](https://github.com/NVIDIA/NeMo)
 * [NVIDIA NeMo Framework](https://developer.nvidia.com/nemo-framework)
