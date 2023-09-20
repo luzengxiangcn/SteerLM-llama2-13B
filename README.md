@@ -143,8 +143,10 @@ print(get_answer(question, 4096, values))
 
 ## Limitations
 
-The model was trained on the data originally crawled from the Internet. This data contains toxic language and societal biases. Therefore, the model may amplify those biases and return toxic responses especially when prompted with toxic prompts.
-We did not perform any bias/toxicity removal or model alignment on this checkpoint.
+Meta’s Llama2 model was trained on publicly available data sources that could include unsafe content. See Meta's Llama2 paper, section 4.1, "Safety in Pretraining" for more details: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/. 
+The model may amplify unsafe content, especially when prompted with unsafe content. NVIDIA did not perform bias or toxicity removal or model alignment on the Llama2 model. NVIDIA’s SteerLM methodology applied to Llama2 provides the opportunity to improve model quality through a fine-tuning technique based on data annotation of specific important categories and allows adjustments to model output at run-time based on those same categories.
+
+
 
 
 ## License
