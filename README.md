@@ -57,7 +57,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 pip install nemo_toolkit['nlp']==1.17.0
 ``` 
 
-Alternatively, you can use NeMo Megatron training docker container with all dependencies pre-installed.
+Alternatively, you can use NVIDIA NeMo Framework training docker container with all dependencies pre-installed.
 
 2. Launch eval server 
 
@@ -147,7 +147,7 @@ The model was trained on the data originally crawled from the Internet. This dat
 We did not perform any bias/toxicity removal or model alignment on this checkpoint.
 
 
-## Licence
+## License
 
 - Llama 2 is licensed under the [LLAMA 2 Community License](https://ai.meta.com/llama/license/), Copyright © Meta Platforms, Inc. All Rights Reserved.
 - Your use of the Llama Materials must comply with applicable laws and regulations (including trade compliance laws and regulations) and adhere to the [Acceptable Use Policy](https://ai.meta.com/llama/use-policy) for the Llama Materials.
