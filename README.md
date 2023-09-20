@@ -57,7 +57,7 @@ pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp
 pip install nemo_toolkit['nlp']==1.17.0
 ``` 
 
-Alternatively, you can use NVIDIA NeMo Framework training docker container with all dependencies pre-installed.
+Alternatively, you can use NVIDIA [NeMo Framework](https://developer.nvidia.com/nemo-framework) training docker container with all dependencies pre-installed.
 
 2. Launch eval server 
 
@@ -143,13 +143,17 @@ print(get_answer(question, 4096, values))
 
 ## Limitations
 
-Meta’s Llama2 model was trained on publicly available data sources that could include unsafe content. See Meta's Llama2 paper, section 4.1, "Safety in Pretraining" for more details: https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/. 
-The model may amplify unsafe content, especially when prompted with unsafe content. NVIDIA did not perform bias or toxicity removal or model alignment on the Llama2 model. NVIDIA’s SteerLM methodology applied to Llama2 provides the opportunity to improve model quality through a fine-tuning technique based on data annotation of specific important categories and allows adjustments to model output at run-time based on those same categories.
-
-
+Meta’s Llama2 model was trained on publicly available data sources that could include unsafe content. See Meta's Llama2 paper, section 4.1, "Safety in Pretraining" for more details see [LLaMa-2](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/). The model may amplify unsafe content, especially when prompted with unsafe content. NVIDIA did not perform bias or toxicity removal or model alignment on the Llama2 model. NVIDIA’s SteerLM methodology applied to Llama2 provides the opportunity to improve model quality through a fine-tuning technique based on data annotation of specific important categories and allows adjustments to model output at run-time based on those same categories. 
 
 
 ## License
 
 - Llama 2 is licensed under the [LLAMA 2 Community License](https://ai.meta.com/llama/license/), Copyright © Meta Platforms, Inc. All Rights Reserved.
 - Your use of the Llama Materials must comply with applicable laws and regulations (including trade compliance laws and regulations) and adhere to the [Acceptable Use Policy](https://ai.meta.com/llama/use-policy) for the Llama Materials.
+
+
+## References
+
+* [Meta Llama 2 on Hugging Face](https://huggingface.co/meta-llama)
+* [NVIDIA NeMo Toolkit](https://github.com/NVIDIA/NeMo)
+* [NVIDIA NeMo Framework](https://developer.nvidia.com/nemo-framework)
