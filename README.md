@@ -26,16 +26,16 @@ SteerLM Llama-2 is a 13 billion parameter generative language model based on the
 
 Key capabilities enabled by SteerLM:
 
-- Dynamic steering of responses by specifying desired attributes like quality, helpfulness, and toxicity
-- Simplified training compared to RLHF techniques like fine-tuning and bootstrapping
+- Dynamic steering of responses by specifying desired attributes like quality, helpfulness, and toxicity.
+- Simplified training compared to RLHF techniques like fine-tuning and bootstrapping.
 
 ## Model Architecture and Training
 The SteerLM method involves the following key steps:
 
-1. Train an attribute prediction model on human annotated data to evaluate response quality
-2. Use this model to annotate diverse datasets and enrich training data
-3. Perform conditioned fine-tuning to align responses with specified combinations of attributes
-4. (Optionally) Bootstrap training through model sampling and further fine-tuning
+1. Train an attribute prediction model on human annotated data to evaluate response quality.
+2. Use this model to annotate diverse datasets and enrich training data.
+3. Perform conditioned fine-tuning to align responses with specified combinations of attributes.
+4. (Optionally) Bootstrap training through model sampling and further fine-tuning.
 
 SteerLM Llama-2 applies this technique on top of the Llama-2 architecture. It was pretrained on internet-scale data and then customized using [OASST](https://huggingface.co/datasets/OpenAssistant/oasst1) and [HH-RLHF](https://huggingface.co/datasets/Anthropic/hh-rlhf) data.
  
