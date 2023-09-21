@@ -143,7 +143,7 @@ print(get_answer(question, 4096, values))
 
 ## Limitations
 
-Meta’s Llama2 model was trained on publicly available data sources that could include unsafe content. See Meta's [Llama2 paper](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/), section 4.1, "Safety in Pretraining" for more details. The model may amplify unsafe content, especially when prompted with unsafe content. NVIDIA did not perform bias or toxicity removal or model alignment on the Llama2 model. NVIDIA’s SteerLM methodology applied to Llama2 provides the opportunity to improve model quality through a fine-tuning technique based on data annotation of specific important categories and allows adjustments to model output at run-time based on those same categories. 
+Meta’s Llama2 model was trained on publicly available data sources that could include unsafe content. See Meta's [Llama2](https://ai.meta.com/research/publications/llama-2-open-foundation-and-fine-tuned-chat-models/) paper, section 4.1, "Safety in Pretraining" for more details. The model may amplify unsafe content, especially when prompted with unsafe content. NVIDIA did not perform bias or toxicity removal or model alignment on the Llama2 model. NVIDIA’s SteerLM methodology applied to Llama2 provides the opportunity to improve model quality through a fine-tuning technique based on data annotation of specific important categories and allows adjustments to model output at run-time based on those same categories. 
 
 
 ## License
