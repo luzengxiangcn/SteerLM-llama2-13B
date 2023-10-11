@@ -22,7 +22,7 @@ img {
 
 ## Model Description
 
-SteerLM Llama-2 is a 13 billion parameter generative language model based on the open-source Llama-2 architecture. It has been customized using the SteerLM method developed by NVIDIA to allow for user control of model outputs during inference.
+[SteerLM](https://arxiv.org/abs/2310.05344) Llama-2 is a 13 billion parameter generative language model based on the open-source Llama-2 architecture. It has been customized using the SteerLM method developed by NVIDIA to allow for user control of model outputs during inference.
 
 Key capabilities enabled by SteerLM:
 
@@ -154,6 +154,7 @@ Meta’s Llama2 model was trained on publicly available data sources that could 
 
 ## References
 
+* [SteerLM paper](https://arxiv.org/abs/2310.05344)
 * [Meta Llama 2 on Hugging Face](https://huggingface.co/meta-llama)
 * [Meta Llama 2 paper](https://arxiv.org/abs/2307.09288)
 * [NVIDIA NeMo Toolkit](https://github.com/NVIDIA/NeMo)
